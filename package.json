@@ -1,0 +1,26 @@
+{
+  "name": "react-test",
+  "version": "3.1.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/components --compilers js:babel-register "
+  },
+  "author": "Zaliyha",
+  "license": "ISC",
+  "dependencies": {
+    "import": "0.0.6",
+    "react": "^0.14.9"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "babel-register": "^6.4.3",
+    "chai": "^3.0.0",
+    "mocha": "^2.2.5",
+    "react-addons-test-utils": "^0.14.3",
+    "skin-deep": "^0.13.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "description": ""
+}
